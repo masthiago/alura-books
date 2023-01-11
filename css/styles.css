@@ -1,7 +1,17 @@
+@import url(header.css);
+@import url(banner.css);
+
 :root {
+    --clr-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --clr-branco: #ffffff;
     --clr-cor-fundo: #ebecee;
+    --clr-laranja: #eb9b00;
+    --fnt-principal: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: var(--clr-cor-fundo);
+    font-family: var(--fnt-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
