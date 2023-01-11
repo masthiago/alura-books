@@ -1,0 +1,8 @@
+.separador__rodape {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--clr-branco);
+    padding: 1rem;
+}

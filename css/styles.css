@@ -1,7 +1,12 @@
 @import url(header.css);
 @import url(banner.css);
+@import url(carrosel.css);
+@import url(topicos.css);
+@import url(contato.css);
+@import url(rodape.css);
 
 :root {
+    --clr-azul-escuro: #002F52;
     --clr-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --clr-branco: #ffffff;
     --clr-cor-fundo: #ebecee;
