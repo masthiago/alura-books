@@ -9,9 +9,13 @@
     --clr-azul-escuro: #002F52;
     --clr-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --clr-branco: #ffffff;
+    --clr-cinza: #474646;
+    --clr-cinza-claro: #858585;
     --clr-cor-fundo: #ebecee;
     --clr-laranja: #eb9b00;
+    --clr-preto: #000000;
     --fnt-principal: 'Poppins', Arial, Helvetica, sans-serif;
+    --fnt-secundaria: 'Josefin Sans', Arial, Helvetica, sans-serif;
 }
 
 body {

@@ -29,9 +29,25 @@
 }
 
 .banner__pesquisa::placeholder {
-    font-size: 14px;
-    font-family: var(--fnt-principal);
-    text-align: center;
     background: url(../img/Pesquisa.svg) no-repeat;
     background-position: 1rem;
+    font-family: var(--fnt-principal);
+    font-size: 14px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1024px) {
+
+    .banner__titulo {
+        font-size: 36px;
+    }
+
+    .banner__pesquisa {
+        width: 50%;
+    }
+
+    .banner__pesquisa::placeholder {
+        background-position: 7rem;
+    }
 }
